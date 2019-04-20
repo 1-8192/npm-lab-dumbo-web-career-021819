@@ -1,0 +1,15 @@
+{
+  "name": "npm-lab-dumbo-web-career-021819",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:1-8192/npm-lab-dumbo-web-career-021819.git",
+  "author": "1-8192 <allegranzia@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "learn-browser": "^0.1.24",
+    "moment": "^2.24.0"
+  },
+  "scripts": {
+    "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+  }
+}
